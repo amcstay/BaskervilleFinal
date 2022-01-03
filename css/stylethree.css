@@ -1,0 +1,171 @@
+/* -- CSS Reset --*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*--Main structure style--*/
+
+body {
+    background: #454645;
+    color: rgb(233, 231, 231);
+
+}
+
+section, header {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+
+}
+header {
+    font-family:  baskerville-display-pt, serif;
+}
+.dark {background:rgb(105, 104, 105);
+    padding: 2em 0;
+    background-size: cover;
+}
+
+.light {background:rgb(202, 206, 134);
+padding: 2em 0;
+background-size: cover;
+}
+/*--styling typograpghy--*/
+h2,h3 {
+    color: #F5ED7B;
+}
+
+h1 {
+    font-size: 5.653rem;
+    color: white;
+    margin-top: 7.5rem;
+}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 3em 0 1 em 0;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin: 3em 0 1 em 0;
+}
+
+p, blockquote {
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+blockquote {
+    color: #F5ED7B;
+    font-size: 1.15rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.5rem;
+    font-family:  baskerville-display-pt, serif;
+
+}
+cite {
+    color: rgb(233, 231, 231);
+    font-size: 0.8rem;
+    font-style: normal;
+}
+
+a {
+    color: rgb(184, 181, 45);
+    text-decoration: none;
+  }
+  
+  
+  /* mouse over link */
+  a:hover {
+    color: #454645 ;
+    text-decoration: none;
+  }
+
+  /*--nav--*/
+  nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin: 0;
+      width: 100%;
+      Background: rgb(184, 181, 45);
+      padding: 2em 10;
+  }
+  nav ul {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1;
+  }
+
+  ul li {
+      display: inline;
+      margin: 28px;
+  }
+
+  nav a {
+      color: white;
+  }
+
+  nav a:hover {
+      border-bottom: none;
+      color: #454645;
+      transition: all 0.4s ease-in-out;
+  }
+
+  hr {
+    margin: 50px 0;
+    height: 1px;
+    background-color: rgb(184, 181, 45);
+    color: rgb(184, 181, 45);;
+    border: 0 none;
+}
+
+img {
+    display: block;
+    margin: 4em 0;
+    padding: 0;
+    max-width: 100%;
+}
+ 
+#the-typeface {
+    border-radius:0px;
+    margin: -100px 0px 0px 0px;
+    padding-top: 100px;
+ }
+
+  
+#the-man {
+    border-radius:0px;
+    margin: -100px 0px 0px 0px;
+    padding-top: 100px;
+ }
+
+ 
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 2em 0 0em 0;
+    padding: 2em 10;
+    background-color: rgb(105, 104, 105);
+    padding: 2em 0;
+    background-size: cover;
+    width: 100%;
+}
+footer p {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.gridimage {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));}
+
+
+ 
